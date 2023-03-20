@@ -1,6 +1,18 @@
-# Домашнее задание №1 к лекции «Классы, наследование»
+[![Build status](https://ci.appveyor.com/api/projects/status/ulq7o0c00y2jn7ho/branch/master?svg=true)](https://ci.appveyor.com/project/Nikitashalimov/classes-inheritance/branch/master)
 
-[![Build status](https://ci.appveyor.com/api/projects/status/qkt5ofm7h0u0os4c?svg=true)](https://ci.appveyor.com/project/yuriyvyatkin/ajs-hw-5-1-classes-inheritance)
+# Домашнее задание к лекции «Классы, наследование»
+
+**Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
+
+**Важно**: код должен проходить ESLint без ошибок.
+
+**Важно**: тесты должны обеспечивать 100% покрытие тестируемых функций по строкам.
+
+**Важно**: решения должны быть построены на базе [шаблона Webpack](/ci-template).
+
+В личном кабинете на сайте [netology.ru](http://netology.ru/) в поле комментария к домашней работе вставьте ссылки на ваш GitHub-проекты.
+
+---
 
 ## Классы, наследование
 
@@ -10,7 +22,7 @@
 
 ### Описание
 
-Реализуйте описанную иерархию классов: класс `Character` является родительским для всех остальных, 6 дочерних классов `Bowerman`, `Swordsman`, `Magician`, `Daemon`, `Undead`, `Zombie` от него наследуются, сами задавая свои характеристики.
+Реализуйте описанную иерархию классов: класс `Character` является родительским для всех остальных, 6 дочерних классов `Boweman`, `Swordsman`, `Magician`, `Daemon`, `Undead`, `Zombie` от него наследуются, сами задавая свои характеристики.
 
 Свойства, которые должны быть у объектов класса `Character`:
 1. `name` - имя
@@ -36,3 +48,5 @@
     1. Undead: 25/25
     1. Zombie: 40/10
     1. Daemon: 10/40
+
+---
